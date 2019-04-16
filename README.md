@@ -1,5 +1,8 @@
 # dotnet-simple-db-app
-# Get started with C# and Visual Studio Code
+- [x] Execute the tutorial
+- [ ] Read how to [connect with db](https://www.microsoft.com/en-us/sql-server/developer-get-started/csharp/win/step/2.html) and switch on h2 or portable db
+
+## Get started with C# and Visual Studio Code
 
 .NET Core gives you a fast and modular platform for creating applications that run on Windows, Linux, and macOS. Use Visual Studio Code with the C# extension to get a powerful editing experience with full support for C# IntelliSense (smart code completion) and debugging.
 
