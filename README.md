@@ -19,6 +19,7 @@ Switch **branch** for app code about **sqlLite database integration on console**
  * Your app uses third-party .NET libraries or NuGet packages not available for .NET Core.
  * Your app uses .NET technologies that aren't available for .NET Core.
  * Your app uses a platform that doesn’t support .NET Core.
+ 
 
 # Features
 
@@ -36,6 +37,11 @@ Switch **branch** for app code about **sqlLite database integration on console**
 3. Install the [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) for Visual Studio Code. For more information about how to install extensions on Visual Studio Code, see [VS Code Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery).
 4. Install [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager) from the Visual Studio Code Extension Marketplace.
 
+### utilities
+
+* [.NET core cli guide](https://docs.microsoft.com/it-it/dotnet/core/tools/?tabs=netcore2x)
+* [Online sqlite client](https://sqliteonline.com/)
+* [Sqlite client VSCode extension](https://github.com/AlexCovizzi/vscode-sqlite)
 
 ## Hello World
 
