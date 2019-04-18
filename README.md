@@ -1,4 +1,27 @@
-# dotnet-simple-db-app
+# dotnet-tutorial-app
+
+> This is a generic tutorial to start development a **.Net Core C# console app** in **Visual Studio Code**.
+Switch **branch** for app code about **sqlLite database integration on console** and **CRUD MVC**.
+
+# Why .Net Core
+
+**.NET Core** is a open source platform for your server application used when:
+
+ * You have cross-platform needs.
+ * You are targeting microservices.
+ * You are using Docker containers.
+ * You need high-performance and scalable systems.
+ * You need side-by-side .NET versions per application.
+ 
+ While **.NET Framework** is used when:
+ 
+ * Your app currently uses .NET Framework (recommendation is to extend instead of migrating).
+ * Your app uses third-party .NET libraries or NuGet packages not available for .NET Core.
+ * Your app uses .NET technologies that aren't available for .NET Core.
+ * Your app uses a platform that doesn’t support .NET Core.
+
+# Features
+
 - [x] Execute the tutorial
 - [ ] Read how to [connect with db](https://www.microsoft.com/en-us/sql-server/developer-get-started/csharp/win/step/2.html) and switch on h2 or portable db
 
