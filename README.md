@@ -46,7 +46,7 @@
 
 The last exe file is a **distributable standalone app** executable without the .NET Core SDK.
 
-> Here you can download the [windows db exe](https://github.com/amanganiello90/dotnet-tutorial-app/archive/distributable-db-app.zip)
+> Here you can download the [windows console app db exe](https://github.com/amanganiello90/dotnet-tutorial-app/archive/distributable-db-app.zip)
 
 
 ## Demo
