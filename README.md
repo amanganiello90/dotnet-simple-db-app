@@ -1,7 +1,9 @@
 # dotnet-tutorial-app
 
 > This is a generic tutorial to start development a **.Net Core C# console app** in **Visual Studio Code**.
-Switch **branch** for app code about **sqlLite database integration on console** and **CRUD MVC**.
+Switch **branch** for app code about **sqlLite database integration on console** and **CRUD MVC**.]
+
+* [Console interactive database app tutorial](dotnet-tutorial-app/tree/database-tutorial)
 
 # Why .Net Core
 
