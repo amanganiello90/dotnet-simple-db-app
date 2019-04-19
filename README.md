@@ -25,8 +25,7 @@ Switch **branch** for app code about **sqlLite database integration on console**
 
 # Features
 
-- [x] Execute the tutorial
-- [ ] Read how to [connect with db](https://www.microsoft.com/en-us/sql-server/developer-get-started/csharp/win/step/2.html) and switch on h2 or portable db
+- [] learn about MVC app
 
 ## Get started with C# and Visual Studio Code
 
