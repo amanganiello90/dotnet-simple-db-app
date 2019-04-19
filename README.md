@@ -21,9 +21,15 @@
 * [.NET core start with db](https://www.microsoft.com/en-us/sql-server/developer-get-started/csharp/win/step/2.html)
 
 
-## How to run
+## How to run with .NET Core SDK installed
 
 * Run ```dotnet run``` on your shell window
+
+## How to run without .NET Core SDK installed (exe file)
+
+Build an .exe file:
+
+* Run ```dotnet publish -c Release -r win10-x64``` on your shell window
 
 
 ## Demo
