@@ -23,6 +23,7 @@
 
 ## How to run
 
+* Run ```dotnet run``` on your shell window
 
 
 ## Demo
