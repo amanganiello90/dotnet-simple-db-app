@@ -23,14 +23,29 @@
 
 ## How to run
 
-* Run ```dotnet run``` on your shell window
+* Run ```dotnet run``` on your shell window in the git cloning folder of this repo
 
 ## How to build
 
-Build an .exe file:
+### Generate dll multiplatform to run with SDK
+
+* Run ```dotnet publish -c Release -r``` on your shell window in the git cloning folder of this repo
+* Under **bin\Release\netcoreapp2.2\publish** there will be your dll app
+* Run in that folder ```dotnet <app-name>.dll```, in this case ```dotnet dotnetapp.dll```
+
+### Docker container with dll multiplatform
+
+* Run ```docker build -t myapp .``` on your shell window in the git cloning folder of this repo
+* After run ```docker run -it --rm myapp``` 
+
+### Generate exe file
 
 * Run ```dotnet publish -c Release -r win10-x64``` on your shell window
-* Under **bin\Release\netcoreapp2.2\win10-x64\publish** there will be your app
+* Under **bin\Release\netcoreapp2.2\win10-x64\publish** there will be your exe app
+
+The last exe file is a **distributable standalone app** executable without the .NET Core SDK.
+
+> Here you can download the [windows exe](https://github.com/amanganiello90/dotnet-tutorial-app/archive/distributable.zip)
 
 
 ## Demo
