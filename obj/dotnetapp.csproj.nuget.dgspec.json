@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sweet\\Desktop\\dotnetapp\\dotnetapp.csproj": {}
+    "C:\\tmp\\dotnet-tutorial-app\\dotnetapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sweet\\Desktop\\dotnetapp\\dotnetapp.csproj": {
+    "C:\\tmp\\dotnet-tutorial-app\\dotnetapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sweet\\Desktop\\dotnetapp\\dotnetapp.csproj",
+        "projectUniqueName": "C:\\tmp\\dotnet-tutorial-app\\dotnetapp.csproj",
         "projectName": "dotnetapp",
-        "projectPath": "C:\\Users\\Sweet\\Desktop\\dotnetapp\\dotnetapp.csproj",
-        "packagesPath": "C:\\Users\\Sweet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sweet\\Desktop\\dotnetapp\\obj\\",
+        "projectPath": "C:\\tmp\\dotnet-tutorial-app\\dotnetapp.csproj",
+        "packagesPath": "C:\\Users\\amanganiello\\.nuget\\packages\\",
+        "outputPath": "C:\\tmp\\dotnet-tutorial-app\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sweet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\amanganiello\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
