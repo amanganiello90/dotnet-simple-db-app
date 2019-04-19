@@ -25,7 +25,7 @@ Switch **branch** for app code about **sqlLite database integration on console**
 
 # Features
 
-- [] learn about MVC app
+- [ ] learn about MVC app
 
 ## Get started with C# and Visual Studio Code
 
