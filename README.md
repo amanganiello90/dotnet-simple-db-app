@@ -35,6 +35,8 @@
 
 ### Docker container with dll multiplatform
 
+Before you have to install on your machine [docker](https://docs.docker.com/docker-for-windows/install/)
+
 * Run ```dotnet publish -c Release -r``` on your shell window in the git cloning folder of this repo
 * Run ```docker build -t myapp .``` on your shell window in the git cloning folder of this repo
 * After run ```docker run -it --rm myapp``` 
