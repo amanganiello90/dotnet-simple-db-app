@@ -33,13 +33,16 @@
 * Under **bin\Release\netcoreapp2.2\publish** there will be your dll app
 * Run in that folder ```dotnet <app-name>.dll```, in this case ```dotnet dotnetapp.dll```
 
-### Docker container with dll multiplatform
+### Build and run with Docker
 
 Before you have to install on your machine [docker](https://docs.docker.com/docker-for-windows/install/) .
 
-* Run ```dotnet publish -c Release -r``` on your shell window in the git cloning folder of this repo
 * Run ```docker build -t myapp .``` on your shell window in the git cloning folder of this repo
 * After run ```docker run -it --rm myapp``` 
+
+> The docker build command creates an image with .NET SDK to generate published app, and a final app image (myapp) with only the runtime libraries for execution.
+
+> The images are based on the alpine minimal linux distribution (round 90MB for Core, 170MB for ASP.NET)
 
 ### Generate exe file
 
