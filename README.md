@@ -29,13 +29,13 @@
 
 ### Generate dll multiplatform to run with SDK
 
-* Run ```dotnet publish -c Release -r``` on your shell window in the git cloning folder of this repo
+* Run ```dotnet publish -c Release``` on your shell window in the git cloning folder of this repo
 * Under **bin\Release\netcoreapp2.2\publish** there will be your dll app
 * Run in that folder ```dotnet <app-name>.dll```, in this case ```dotnet dotnetapp.dll```
 
 ### Docker container with dll multiplatform
 
-Before you have to install on your machine [docker](https://docs.docker.com/docker-for-windows/install/)
+Before you have to install on your machine [docker](https://docs.docker.com/docker-for-windows/install/) .
 
 * Run ```dotnet publish -c Release -r``` on your shell window in the git cloning folder of this repo
 * Run ```docker build -t myapp .``` on your shell window in the git cloning folder of this repo
