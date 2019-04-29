@@ -1,7 +1,10 @@
 # dotnet-tutorial-app
 
-> This is the code tutorial of a console app that connects to sqLite database.
+> This is the code tutorial of a mvc app that connects (in future) to sqLite database.
 
+## Cli command
+
+The app is been generated with ```dotnet new mvc``` command.
 
 ## Running Prerequisites
 
@@ -37,7 +40,9 @@
 
 * Run ```dotnet publish -c Release -r``` on your shell window in the git cloning folder of this repo
 * Run ```docker build -t myapp .``` on your shell window in the git cloning folder of this repo
-* After run ```docker run -it --rm myapp``` 
+* After run ```docker run -it -p <YOUR-PORT>:5001 --rm myapp``` 
+
+> Replace YOUR-PORT with a enabled port of your machine. So you can access to the app in http://localhost:YOUR-PORT
 
 ### Generate exe file
 
@@ -45,9 +50,6 @@
 * Under **bin\Release\netcoreapp2.2\win10-x64\publish** there will be your exe app
 
 The last exe file is a **distributable standalone app** executable without the .NET Core SDK.
-
-> Here you can download the [windows db exe](https://github.com/amanganiello90/dotnet-tutorial-app/archive/distributable-db-app.zip)
-
 
 ## Demo
 
