@@ -5,6 +5,8 @@ Switch **branch** for app code about **sqLite database integration on console** 
 
 * [Console interactive database app tutorial branch](https://github.com/amanganiello90/dotnet-tutorial-app/tree/database-tutorial)
 
+* [CRUD MVC app tutorial branch](https://github.com/amanganiello90/dotnet-tutorial-app/tree/mvc-tutorial)
+
 # Why .Net Core
 
 **.NET Core** is a open source platform for your server application used when:
@@ -25,7 +27,9 @@ Switch **branch** for app code about **sqLite database integration on console** 
 
 # Features
 
-- [ ] learn about MVC app
+- [x] MVC app tutorial
+- [x] Console with sqlite db app tutorial
+- [x] Docker images tutorial
 
 ## Get started with C# and Visual Studio Code
 
@@ -38,7 +42,7 @@ Switch **branch** for app code about **sqLite database integration on console** 
 3. Install the [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) for Visual Studio Code. For more information about how to install extensions on Visual Studio Code, see [VS Code Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery).
 4. Install [NuGet Package Manager](https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager) from the Visual Studio Code Extension Marketplace.
 
-### utilities
+## Utilities guides
 
 * [.NET core cli guide](https://docs.microsoft.com/it-it/dotnet/core/tools/?tabs=netcore2x)
 * [Online sqlite client](https://sqliteonline.com/)
