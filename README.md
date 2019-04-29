@@ -53,4 +53,4 @@ The last exe file is a **distributable standalone app** executable without the .
 
 ## Demo
 
-[demo.gif](demo.gif)
+![demo.gif](demo.gif)
