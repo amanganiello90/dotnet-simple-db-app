@@ -2,6 +2,9 @@
 
 > This is the code tutorial of a console app that connects to sqLite database.
 
+## Cli command
+
+The app is been generated with ```dotnet new console``` command.
 
 ## Running Prerequisites
 
