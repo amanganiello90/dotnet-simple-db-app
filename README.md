@@ -34,7 +34,7 @@ The app is been generated with ```dotnet new console``` command.
 
 * Run ```dotnet publish -c Release``` on your shell window in the git cloning folder of this repo
 * Under **bin\Release\netcoreapp2.2\publish** there will be your dll app
-* Run in that folder ```dotnet <app-name>.dll```, in this case ```dotnet dotnetapp.dll```
+* Run in that folder ```dotnet <app-name>.dll```, in this case ```dotnet dotnet-tutorial-app.dll```
 
 ### Build and run with Docker
 
