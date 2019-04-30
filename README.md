@@ -41,7 +41,7 @@ The app is been generated with ```dotnet new mvc``` command.
 Before you have to install on your machine [docker](https://docs.docker.com/docker-for-windows/install/) .
 
 * Run ```docker build -t myapp .``` on your shell window in the git cloning folder of this repo
-* After run ```docker run -it -p <YOUR-PORT>:5001 --rm myapp``` 
+* After run ```docker run -it -p <YOUR-PORT>:80 --rm myapp``` 
 
 > The docker build command creates an image with .NET SDK to generate published app, and a final app image (myapp) with only the runtime libraries for execution.
 

@@ -2,8 +2,8 @@ FROM mcr.microsoft.com/dotnet/core/sdk:2.2-alpine AS build
 WORKDIR /app
 
 ## copy csproj and app with build
-COPY . ./dotnetapp/
-WORKDIR /app/dotnetapp
+COPY . ./dotnet-tutorial-app/
+WORKDIR /app/dotnet-tutorial-app
 RUN dotnet publish -c Release -o out
 
 ## If you want console color
@@ -15,6 +15,6 @@ RUN dotnet publish -c Release -o out
 ## If you want WEB APP library
 FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-alpine AS runtime
 WORKDIR /app
-COPY --from=build /app/dotnetapp/out ./
-EXPOSE 5001
-ENTRYPOINT ["dotnet", "dotnetapp.dll"]
+COPY --from=build /app/dotnet-tutorial-app/out ./
+EXPOSE 80
+ENTRYPOINT ["dotnet", "dotnet-tutorial-app.dll"]
