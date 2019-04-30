@@ -38,11 +38,16 @@ The app is been generated with ```dotnet new mvc``` command.
 
 ### Docker container with dll multiplatform
 
-* Run ```dotnet publish -c Release -r``` on your shell window in the git cloning folder of this repo
+Before you have to install on your machine [docker](https://docs.docker.com/docker-for-windows/install/) .
+
 * Run ```docker build -t myapp .``` on your shell window in the git cloning folder of this repo
 * After run ```docker run -it -p <YOUR-PORT>:5001 --rm myapp``` 
 
-> Replace YOUR-PORT with a enabled port of your machine. So you can access to the app in http://localhost:YOUR-PORT
+> The docker build command creates an image with .NET SDK to generate published app, and a final app image (myapp) with only the runtime libraries for execution.
+
+> The images are based on the alpine minimal linux distribution (round 90MB for Core, 170MB for ASP.NET).
+
+> Replace YOUR-PORT with a enabled port of your machine. So you can access to the app in http://localhost:YOUR-PORT .
 
 ### Generate exe file
 
