@@ -4,7 +4,7 @@
 
 ## News
 
-* [x] Create a docker compose with MySql in production (need test)
+* [x] Create a docker compose with MySql in production (data iniialize fails for user permissions)
 * [ ] Update demo gif
 
 ## Cli command
@@ -57,9 +57,11 @@ Before you have to install on your machine [docker](https://docs.docker.com/dock
 
 #### Docker Compose with MySql database
 
-* Run ```docker-compose up -d``` on your shell window.
+* Run ```docker-compose up``` on your shell window.
 
-> The app will start on localhost:5000 (the port is specified in the **docker-compose.yml**)
+> You can use The ```-d``` option to run process in Daemon.
+
+> The app will start on localhost:5000 (the port is specified in the **docker-compose.yml**).
 
 * Run ```docker-compose down``` to stop and remove containers.
 

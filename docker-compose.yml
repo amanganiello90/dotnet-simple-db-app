@@ -10,11 +10,13 @@ services:
        MYSQL_PASSWORD: dbuserpassword
      volumes:
        - dbdata:/var/lib/mysql
-       - ./_MySQL_Init_Script:/docker-entrypoint-initdb.d
-     restart: always
+     ports:
+       - "3306:3306"
  
    myapp:
      depends_on:
+       - db
+     links:
        - db
  #    image: amanganiello90/dotnet-app
      build:
