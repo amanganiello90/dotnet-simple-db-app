@@ -16,5 +16,6 @@ RUN dotnet publish -c Release -o out
 FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-alpine AS runtime
 WORKDIR /app
 COPY --from=build /app/dotnet-tutorial-app/out ./
+COPY . waitForMySQL.sh 
 EXPOSE 80
 ENTRYPOINT ["dotnet", "dotnet-tutorial-app.dll"]
