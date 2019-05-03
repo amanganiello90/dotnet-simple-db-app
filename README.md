@@ -1,6 +1,11 @@
 # dotnet-tutorial-app
 
-> This is the code tutorial of a mvc app that connects (in future) to sqLite database.
+> This is the code tutorial of a mvc app that connects to sqLite database for **CRUD** with **Entity Framework**.
+
+## Next development
+
+* [ ] Create a docker compose with MySql in production
+* [ ] Update demo gif
 
 ## Cli command
 
@@ -21,7 +26,8 @@ The app is been generated with ```dotnet new mvc``` command.
 ## Utilities guides
 
 * [.NET core cli guide](https://docs.microsoft.com/it-it/dotnet/core/tools/?tabs=netcore2x)
-* [.NET core start with db](https://www.microsoft.com/en-us/sql-server/developer-get-started/csharp/win/step/2.html)
+* [.NET core MVC start with Entity Framework](https://docs.microsoft.com/it-it/aspnet/core/data/ef-mvc/intro?view=aspnetcore-2.2)
+* [.NET core MVC example code](https://github.com/aspnet/AspNetCore.Docs/tree/master/aspnetcore/data/ef-mvc/intro/samples/cu-final)
 
 
 ## How to run
