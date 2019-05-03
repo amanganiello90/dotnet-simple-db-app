@@ -1,5 +1,9 @@
 using dotnet_tutorial_app.Models;
 using Microsoft.EntityFrameworkCore;
+
+using MySql.Data.EntityFrameworkCore;
+using MySql.Data.EntityFrameworkCore.Extensions;
+
 namespace dotnet_tutorial_app.Data {
     public class UserManagementContext : DbContext {
 

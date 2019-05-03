@@ -12,6 +12,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+
+
+
 namespace dotnet_tutorial_app {
     public class Startup {
         public Startup (IConfiguration configuration) {
@@ -22,6 +25,22 @@ namespace dotnet_tutorial_app {
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices (IServiceCollection services) {
+            services.Configure<CookiePolicyOptions> (options => {
+                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+
+            services.AddDbContext<UserManagementContext> (options =>
+               options.UseMySQL(Configuration.GetConnectionString ("DefaultConnection"))
+
+            );
+
+            services.AddMvc ().SetCompatibilityVersion (CompatibilityVersion.Version_2_2);
+        }
+
+        // This method gets called by the runtime. Use this method to add services to the container.
+        public void ConfigureDevelopmentServices (IServiceCollection services) {
             services.Configure<CookiePolicyOptions> (options => {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
                 options.CheckConsentNeeded = context => true;

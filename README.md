@@ -2,9 +2,9 @@
 
 > This is the code tutorial of a mvc app that connects to sqLite database for **CRUD** with **Entity Framework**.
 
-## Next development
+## News
 
-* [ ] Create a docker compose with MySql in production
+* [x] Create a docker compose with MySql in production (need test)
 * [ ] Update demo gif
 
 ## Cli command
@@ -54,6 +54,14 @@ Before you have to install on your machine [docker](https://docs.docker.com/dock
 > The images are based on the alpine minimal linux distribution (round 90MB for Core, 170MB for ASP.NET).
 
 > Replace YOUR-PORT with a enabled port of your machine. So you can access to the app in http://localhost:YOUR-PORT .
+
+#### Docker Compose with MySql database
+
+* Run ```docker-compose up -d``` on your shell window.
+
+> The app will start on localhost:5000 (the port is specified in the **docker-compose.yml**)
+
+* Run ```docker-compose down``` to stop and remove containers.
 
 ### Generate exe file
 
