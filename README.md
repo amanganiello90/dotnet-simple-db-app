@@ -4,6 +4,7 @@
 
 ## News
 
+* [ ] Integrate [Identity](https://damienbod.com/2018/10/30/implementing-user-management-with-asp-net-core-identity-and-custom-claims/)
 * [x] Create a docker compose with MySql in production
 * [ ] Update demo gif
 
