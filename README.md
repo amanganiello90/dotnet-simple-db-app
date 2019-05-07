@@ -30,7 +30,7 @@ The app is been generated with ```dotnet new console``` command.
 
 ## How to build
 
-### Generate dll multiplatform to run with SDK
+### Generate dll multiplatform to run with SDK (just core runtime)
 
 * Run ```dotnet publish -c Release``` on your shell window in the git cloning folder of this repo
 * Under **bin\Release\netcoreapp2.2\publish** there will be your dll app
