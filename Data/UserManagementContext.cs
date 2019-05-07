@@ -13,7 +13,7 @@ namespace dotnet_tutorial_app.Data {
 
         protected override void OnModelCreating (ModelBuilder modelBuilder) {
             // Map table names
-            modelBuilder.Entity<UserManagement> ().ToTable ("User");
+            modelBuilder.Entity<UserManagement> ().ToTable ("Users");
             modelBuilder.Entity<UserManagement> (entity => {
                 entity.HasKey (e => e.UserManagementID);
 

@@ -2,7 +2,9 @@ version: '3.3'
  
 services:
    db:
-     image: mysql:5.7
+     build:
+       context: .
+       dockerfile: Dockerfile.mysql
      environment:
        MYSQL_DATABASE: myappdb
        MYSQL_USER: user
@@ -19,9 +21,6 @@ services:
      depends_on:
        - db
  #    image: amanganiello90/dotnet-app
-     command: 
-      - "bash -c \""
-      - "sleep 30" 
      build:
        context: .
      ports:
