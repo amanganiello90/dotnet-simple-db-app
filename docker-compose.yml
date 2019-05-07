@@ -2,17 +2,15 @@ version: '3.3'
  
 services:
    db:
-     build:
-       context: .
-       dockerfile: Dockerfile.mysql
+     image: mysql:5.7
      environment:
        MYSQL_DATABASE: myappdb
        MYSQL_USER: user
        MYSQL_PASSWORD: pwd
        # For random root password
        MYSQL_ROOT_PASSWORD: 1
-     #volumes:
-     # - dbdata:/var/lib/mysql
+     volumes:
+      - ./sql-scripts:/docker-entrypoint-initdb.d/
      ports:
        - "3306:3306"
      restart: always
@@ -26,5 +24,3 @@ services:
      ports:
        - "5000:80"
  
-#volumes:
-#  dbdata:

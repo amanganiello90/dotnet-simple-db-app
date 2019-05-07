@@ -4,7 +4,7 @@
 
 ## News
 
-* [x] Create a docker compose with MySql in production (data iniialize fails for user permissions)
+* [x] Create a docker compose with MySql in production
 * [ ] Update demo gif
 
 ## Cli command
